@@ -1,1 +1,13 @@
-@import "./base";
+@import "./base/base";
+@import "./utilites/placeholders";
+@import "./utilites/variables";
+@import "./components/main-page/header";
+@import "./components/main-page/hero";
+@import "./components/main-page/specials";
+@import "./components/main-page/clients";
+@import "./components/main-page/whatwedo";
+@import "./components/main-page/team";
+@import "./components/main-page/footer";
+@import "./components/portfolio/sort";
+@import "./components/portfolio/cards";
+@import "./components/main-page/modal-page";

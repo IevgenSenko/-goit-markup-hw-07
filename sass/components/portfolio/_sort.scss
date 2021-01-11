@@ -1,0 +1,40 @@
+.sort {
+  padding-top: 94px;
+  padding-bottom: 34px;
+  button {
+    text-align: center;
+
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 22px;
+    padding-left: 22px;
+
+    background: #f5f4fa;
+    border-radius: 4px;
+    border-color: #f5f4fa;
+    border-style: none;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    @extend %transition;
+  }
+
+  button:hover,
+  button:focus {
+    background-color: $main-color;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}
+.sort-list {
+  display: flex;
+  justify-content: center;
+}
+.sort-list .item:not(:last-child) {
+  margin-right: 8px;
+}

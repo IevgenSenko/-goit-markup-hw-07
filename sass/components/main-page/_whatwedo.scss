@@ -1,0 +1,42 @@
+.whatwedo {
+  padding-bottom: 94px;
+  h2 {
+    margin-bottom: 50px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+  h3 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+    padding-top: 27px;
+    padding-bottom: 27px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+    background-color: rgba(47, 48, 58, 0.8);
+  }
+}
+.whatwedo-list {
+  display: flex;
+
+  .item {
+    display: block;
+    position: relative;
+  }
+  .item:not(:last-child) {
+    margin-right: 30px;
+  }
+}

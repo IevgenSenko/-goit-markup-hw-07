@@ -1,0 +1,107 @@
+.footer {
+  .logo {
+    display: block;
+
+    margin-bottom: 20px;
+    padding: 0;
+
+    color: #ffffff;
+  }
+  .container {
+    display: flex;
+  }
+}
+footer {
+  display: block;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background: #2f303a;
+  .social-links {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .social-links a {
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: #ffffff;
+  }
+}
+address {
+  p {
+    margin-bottom: 8px;
+
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    color: #ffffff;
+  }
+
+  a {
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .address-mail {
+    margin-bottom: 8px;
+    display: block;
+  }
+}
+.join-webs h3,
+.footer-form label {
+  padding-top: 12px;
+  margin-bottom: 20px;
+
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  line-height: 16px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.join-webs {
+  margin-left: 70px;
+}
+.footer-form {
+  margin-left: auto;
+  margin-right: 0;
+
+  label {
+    display: inline-block;
+    padding-top: 12px;
+    margin-bottom: 20px;
+  }
+}
+.form-subs {
+  display: flex;
+  .btn {
+    display: inline-flex;
+    align-items: center;
+
+    .airplane-icon {
+      margin-left: 10px;
+      width: 24px;
+      height: 24px;
+    }
+  }
+  .footer-email {
+    display: flex;
+    justify-content: center;
+    padding-left: 16px;
+    margin-right: 12px;
+
+    width: 358px;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    line-height: 1.25;
+
+    color: rgba(255, 255, 255, 0.6);
+    background-color: #2f303a;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  }
+}

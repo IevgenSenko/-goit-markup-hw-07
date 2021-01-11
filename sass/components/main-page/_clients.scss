@@ -1,0 +1,70 @@
+.clients {
+  padding-bottom: 94px;
+  padding-top: 94px;
+
+  h2 {
+    margin-bottom: 50px;
+    text-align: center;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+  }
+}
+.clients-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    height: 90px;
+    width: 170px;
+
+    color: #757575;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    fill: #afb1b8;
+
+    @extend %transition;
+  }
+  a:hover {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    fill: $main-color;
+    border: 1px solid$main-color;
+  }
+  .item:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+.logo1 {
+  width: 44px;
+  height: 49px;
+}
+.logo2 {
+  width: 40px;
+  height: 52px;
+}
+.logo3 {
+  width: 42px;
+  height: 51px;
+}
+.logo4 {
+  width: 80px;
+  height: 42px;
+}
+.logo5 {
+  width: 59px;
+  height: 47px;
+}
+.logo6 {
+  width: 89px;
+  height: 45px;
+}
