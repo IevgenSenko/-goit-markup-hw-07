@@ -64,7 +64,8 @@
 
     @extend %transition;
   }
-  a:hover {
+  a:hover,
+  a:focus {
     background-color: $main-color;
     fill: #ffffff;
   }

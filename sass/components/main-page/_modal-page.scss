@@ -45,7 +45,8 @@
 
   @extend %transition;
 
-  &:hover {
+  &:hover,
+  &:focus {
     fill: $main-color;
     cursor: pointer;
   }
@@ -84,7 +85,8 @@
 
     @extend %transition;
 
-    &:hover {
+    &:hover,
+    &::focus {
       border: 1px solid $main-color;
       cursor: pointer;
     }
